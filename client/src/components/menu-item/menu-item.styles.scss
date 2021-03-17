@@ -25,6 +25,11 @@
 
     &.large{
       height: 38rem;
+
+      
+      @media screen and (max-width: 800px) {
+        height: 240px;
+      }
     }
   
     &:first-child {
@@ -34,6 +39,7 @@
     &:last-child {
       margin-left: 7.5px;
     }
+
 
     .background-image {
       width: 100%;
