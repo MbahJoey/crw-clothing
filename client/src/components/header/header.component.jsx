@@ -48,5 +48,4 @@ const mapDispatchToProps = (dispatch) => ({
   signOutStart: () => dispatch(signOutStart()),
 });
 
-//hired function with 2 values
 export default connect(mapStateToProps, mapDispatchToProps)(Header);

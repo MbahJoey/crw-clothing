@@ -25,14 +25,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
 
     emailSignInStart(email, password);
 
-    // try {
-    //   await auth.signInWithEmailAndPassword(email, password);
-    //   this.setState({ email: "", password: "" });
-    // } catch (error) {
-    //   console.log(error);
-    // // }
-
-    // this.setState({ email: "", password: "" });
+  
   };
 
   const handleChange = (event) => {
