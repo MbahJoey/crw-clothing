@@ -12,7 +12,6 @@ import ShopActionTypes from "./shop.types";
 
 //generator function
 export function* fetchCollectionsAsync() {
-  yield console.log("I am fired");
   //all generator functions must have yield inside
   try {
     const collectionRef = firestore.collection("collections");
