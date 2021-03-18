@@ -1,6 +1,23 @@
 .sign-in-and-sign-up {
-    width: 850px;
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  flex-direction: row;
+  padding-right: 50px;
+  @media (max-width: 850px) {
     display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: unset;
+  }
+}
+@media (max-width: 850px) {
+  .vl {
+    margin: 30px;
+    width: 500px;
+    border-top: solid 1px #A9A9A9;
+    border-width: 1.4px;
+  }
 }

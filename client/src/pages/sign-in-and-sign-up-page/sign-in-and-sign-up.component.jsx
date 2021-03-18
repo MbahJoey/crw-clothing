@@ -8,6 +8,8 @@ import "./sign-in-and-sign-up.styles.scss";
 const SignInAndSignUpPage = () => (
   <div className="sign-in-and-sign-up">
     <SignIn/>
+    <hr />
+    <div className="vl"/>
     <SignUp/>
   </div>
 );
